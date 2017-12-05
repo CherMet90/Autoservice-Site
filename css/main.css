@@ -43,7 +43,7 @@ body {
 }
 header {
     position: relative;
-    background: url('../img/top_bg.jpg') no-repeat top center;
+    background: url('../img/top_bg_alt.jpg') no-repeat top center;
     min-height: 644px;
     font-family: "BebasRegular";
 }
@@ -54,18 +54,18 @@ header a {
 	min-height: 97px;
 	-webkit-box-shadow: rgba(255,255,255,.2) 0 0 0 1px;
 	box-shadow: rgba(255,255,255,.2) 0 0 0 1px;
-	position: absolute;
-	top: 0;
+	/*position: absolute;*/
+	/*top: 0;*/
 	width: 100%;
 	background: rgba(0,0,0,.86);
 	padding-top: 24px;
 }
-.container {
+/*.container {
     width: 1140px;
-}
+}*/
 .top-address {
 		/*display:block;*/
-		float: left;
+		/*float: left;*/
     padding-left: 48px;
     background: url('../img/top_map.png') no-repeat center left;
 		line-height: 28px;
@@ -92,8 +92,18 @@ header a {
 }
 .top-call {
     line-height: 28px;
-    float: right;
+    text-align: right;
 }
 .top-call span {
 	color: #fefefe;
+}
+.slogan {
+	margin-top: 83px;
+}
+.slogan h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+    text-align: center;
+    margin: 0;
+    color: white;
 }
