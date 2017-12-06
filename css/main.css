@@ -125,7 +125,10 @@ header {
     float: left;
 }
 .header__button_left:hover {
-	background-color: #bd2518;
+	background-color: #e05046;
+}
+.header__button_left:active {
+	background-color: #a6241b;
 }
 .header__button_right {
     margin-left: 21px;
@@ -138,7 +141,10 @@ header {
     text-align: center;
 }
 .header__button_right:hover {
-	background-color: #bd2518;
+	background-color: #e05046;
+}
+.header__button_right:active {
+	background-color: #a6241b;
 }
 .button__left_img {
     float: left;
