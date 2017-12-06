@@ -47,63 +47,105 @@ header {
     min-height: 644px;
     font-family: "BebasRegular";
 }
-header a {
-	color: white;
-}
-.top-line {
+.header__top-line {
 	min-height: 97px;
 	-webkit-box-shadow: rgba(255,255,255,.2) 0 0 0 1px;
 	box-shadow: rgba(255,255,255,.2) 0 0 0 1px;
-	/*position: absolute;*/
-	/*top: 0;*/
 	width: 100%;
 	background: rgba(0,0,0,.86);
 	padding-top: 24px;
 }
-/*.container {
-    width: 1140px;
-}*/
-.top-address {
-		/*display:block;*/
-		/*float: left;*/
-    padding-left: 48px;
-    background: url('../img/top_map.png') no-repeat center left;
-		line-height: 28px;
-}
-.top-line strong {
+.header__top-line strong {
 	display: block;
 	color: #d12f22;
 	text-transform: uppercase;
 	font-size: 32px;
-	font-weight: bold;
+	/*font-family: "BebasBold";*/
 }
-.top-line a {
+.header__top-line a {
 	font-size: 22px;
 	text-decoration: underline;
 }
-.logo-wrap {
+.top-line__address {
+    padding-left: 48px;
+    background: url('../img/top_map.png') no-repeat center left;
+		line-height: 28px;
+}
+.top-line__address a {
+	color: white;
+}
+.top-line__logo_wrap {
     position: relative;
     width: 240px;
     margin: auto;
 }
-.logo {
+.top-line__logo {
     position: absolute;
     top: -25px;
 }
-.top-call {
+.top-line__call {
     line-height: 28px;
     text-align: right;
 }
-.top-call span {
+.top-line__call a {
+	color: white;
+}
+.top-line__call span {
 	color: #fefefe;
 }
 .slogan {
 	margin-top: 83px;
 }
 .slogan h1 {
-    font-size: 2em;
+    font-size: 40px;
     margin: 0.67em 0;
     text-align: center;
     margin: 0;
     color: white;
+    line-height: 26px;
+}
+.shadowed {
+	text-shadow: rgba(0,0,0,.55) 0 2px;
+}
+.header__button {
+	margin-top: 373px;
+}
+.header__button a {
+	color: white;
+	font-size: 20px;
+	line-height: 18px;
+	font-family: "BebasBold";
+}
+.header__button_left {
+    width: 240px;
+    background-color: #d12f22;
+    display: inline-block;
+    min-height: 54px;
+    border-bottom: #ac160a solid 4px;
+    float: left;
+}
+.header__button_left:hover {
+	background-color: #bd2518;
+}
+.header__button_right {
+    margin-left: 21px;
+    background-color: #d12f22;
+    min-width: 96px;
+    min-height: 54px;
+    border-bottom: #ac160a 4px solid;
+    float: left;
+    padding: 16px 0px;
+    text-align: center;
+}
+.header__button_right:hover {
+	background-color: #bd2518;
+}
+.button__left_img {
+    float: left;
+    padding: 10px 13px;
+}
+.button__left_text {
+    float: left;
+    width: 169px;
+    padding: 7px 0px;
 }
