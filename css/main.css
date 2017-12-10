@@ -42,10 +42,13 @@ body {
 	position: relative;
 }
 header {
-    position: relative;
-    background: url('../img/top_bg_alt.jpg') no-repeat top center;
-    min-height: 644px;
-    font-family: "BebasRegular";
+	position: relative;
+	background: url('../img/top_bg_alt.jpg') no-repeat top center;
+	height: 668px;
+	font-family: "BebasRegular";
+	-webkit-box-shadow: rgba(255,255,255,.2) 0 0 0 1px;
+	box-shadow: rgba(255,255,255,.2) 0 0 0 1px;
+	width: 100%;
 }
 .header__top-line {
 	min-height: 97px;
@@ -108,7 +111,9 @@ header {
 	text-shadow: rgba(0,0,0,.55) 0 2px;
 }
 .header__button {
-	margin-top: 373px;
+    position: absolute;
+    bottom: 33px;
+    width: 100%;
 }
 .header__button a {
 	color: white;
@@ -154,4 +159,32 @@ header {
     float: left;
     width: 169px;
     padding: 7px 0px;
+}
+.topmenu {
+	background-color: #242424;
+	min-height: 70px;
+	-webkit-box-shadow: rgba(255,255,255,.2) 1px 0 0 1px;
+	box-shadow: rgba(255,255,255,.2) 1px 0 0 1px;
+}
+.topmenu_mainbutton {
+
+}
+.mainbutton_img {
+	background-image: url('../img/topmenu_iconset.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	height: 23px;
+	width: 21px;
+	float: left;
+	margin: 23px 0px;
+}
+.topmenu_text {
+	float: left;
+	color: #ffffff;
+	font-family: "BebasBold";
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 22px;
+	padding: 24px 0px;
+	padding-left: 11px;
 }
