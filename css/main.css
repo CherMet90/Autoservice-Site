@@ -46,8 +46,8 @@ header {
 	background: url('../img/top_bg_alt.jpg') no-repeat top center;
 	height: 668px;
 	font-family: "BebasRegular";
-	-webkit-box-shadow: rgba(255,255,255,.2) 0 0 0 1px;
-	box-shadow: rgba(255,255,255,.2) 0 0 0 1px;
+/*	-webkit-box-shadow: rgba(255,255,255,.2) 0 0 0 1px;
+	box-shadow: rgba(255,255,255,.2) 0 0 0 1px;*/
 	width: 100%;
 }
 .header__top-line {
@@ -165,9 +165,28 @@ header {
 	min-height: 70px;
 	-webkit-box-shadow: rgba(255,255,255,.2) 1px 0 0 1px;
 	box-shadow: rgba(255,255,255,.2) 1px 0 0 1px;
+	letter-spacing: 1px;
 }
-.topmenu_mainbutton {
-
+.topmenu_text {
+	float: left;
+	color: #ffffff;
+	font-family: "BebasBold";
+	font-size: 20px;
+	line-height: 22px;
+	padding-top: 25px;
+	padding-left: 11px;
+	padding-right: 27px;
+}
+.topmenu a {
+    height: 100%;
+    float: left;
+    padding-left: 19px;
+}
+.topmenu a:hover {
+	background-color: #3d3d3d;
+}
+.topmenu a:active {
+	background-color: #0a0a0a;
 }
 .mainbutton_img {
 	background-image: url('../img/topmenu_iconset.png');
@@ -178,13 +197,48 @@ header {
 	float: left;
 	margin: 23px 0px;
 }
-.topmenu_text {
+.aboutus_img {
+	background-image: url('../img/topmenu_iconset.png');
+	background-repeat: no-repeat;
+	background-position: 1px -31px;
+	height: 23px;
+	width: 23px;
 	float: left;
-	color: #ffffff;
-	font-family: "BebasBold";
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 22px;
-	padding: 24px 0px;
-	padding-left: 11px;
+	margin: 23px 0px;
+}
+.prices_img {
+	background-image: url('../img/topmenu_iconset.png');
+	background-repeat: no-repeat;
+	background-position: 0 -63px;
+	height: 23px;
+	width: 21px;
+	float: left;
+	margin: 23px 0px;
+}
+.examples_img {
+	background-image: url('../img/topmenu_iconset.png');
+	background-repeat: no-repeat;
+	background-position: 1px -93px;
+	height: 23px;
+	width: 23px;
+	float: left;
+	margin: 23px 0px;
+}
+.partners_img {
+	background-image: url('../img/topmenu_iconset.png');
+	background-repeat: no-repeat;
+	background-position: -1px -124px;
+	height: 23px;
+	width: 23px;
+	float: left;
+	margin: 23px 0px;
+}
+.contacts_img {
+	background-image: url('../img/topmenu_iconset.png');
+	background-repeat: no-repeat;
+	background-position: -4px -167px;
+	height: 27px;
+	width: 17px;
+	float: left;
+	margin: 21px 0px;
 }
