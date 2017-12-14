@@ -163,8 +163,8 @@ header {
 .topmenu {
 	background-color: #242424;
 	min-height: 70px;
-	-webkit-box-shadow: rgba(255,255,255,.2) 1px 0 0 1px;
-	box-shadow: rgba(255,255,255,.2) 1px 0 0 1px;
+	border-top: 1px solid rgba(255,255,255,0.18);
+	border-bottom: 1px solid rgba(255,255,255,0.18);
 	letter-spacing: 1px;
 }
 .topmenu_text {
@@ -181,6 +181,7 @@ header {
     height: 100%;
     float: left;
     padding-left: 19px;
+    border-left: 1px solid rgba(255,255,255,0.18);
 }
 .topmenu a:hover {
 	background-color: #3d3d3d;
@@ -241,4 +242,38 @@ header {
 	width: 17px;
 	float: left;
 	margin: 21px 0px;
+}
+.topmenu__warranty {
+	float: right;
+	border: 3px solid white;
+	border-radius: 3px;
+	width: 181px;
+	margin: 8px auto;
+	color: white;
+	cursor: default;
+}
+.warranty_left {
+	float: left;
+	font-family: "BebasRegular";
+	font-weight: bold;
+	margin: 0 4px;
+}
+.warranty_right {
+	float: right;
+	font-family: "RobotoCondensedRegular";
+	font-size: 15px;
+	line-height: 17px;
+	width: 112px;
+	margin: 7px 4px 0px 0px;
+}
+.services {
+    background-color: #191919;
+}
+.services__title {
+	text-align: center;
+	font-family: "BebasRegular";
+	font-size: 40px;
+	line-height: 26px;
+	margin-top: 70px;
+	font-weight: bold;
 }
