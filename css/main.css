@@ -24,7 +24,7 @@ body textarea:required:valid {
 	
 }
 body {
-	font-family: "RobotoRegular", sans-serif;
+	font-family: "BebasRegular", sans-serif;
 	font-size: 16px;
 	min-width: 320px;
 	position: relative;
@@ -279,4 +279,25 @@ nav a:active {
 }
 .services__title img:last-child {
 	margin-left: 21px;
+}
+.services__items {
+	margin-top: 70px;
+}
+.services__bodyrepair {
+	border: #353535 solid 1px;
+}
+.services__bodyrepair_img {
+	background-image: url('../img/services_iconset.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	height: 73px;
+	width: 103px;
+	margin: auto;
+}
+.services__bodyrepair span {
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 26px;
+	color: #fefefe;
+	margin: 0px 29px;
 }
