@@ -28,6 +28,7 @@ body {
 	font-size: 16px;
 	min-width: 320px;
 	position: relative;
+	cursor: default;
 }
 .hidden {
 	display: none;
@@ -46,8 +47,6 @@ header {
 	background: url('../img/top_bg_alt.jpg') no-repeat top center;
 	height: 668px;
 	font-family: "BebasRegular";
-/*	-webkit-box-shadow: rgba(255,255,255,.2) 0 0 0 1px;
-	box-shadow: rgba(255,255,255,.2) 0 0 0 1px;*/
 	width: 100%;
 }
 .header__top-line {
@@ -63,7 +62,6 @@ header {
 	color: #d12f22;
 	text-transform: uppercase;
 	font-size: 32px;
-	/*font-family: "BebasBold";*/
 }
 .header__top-line a {
 	font-size: 22px;
@@ -160,14 +158,14 @@ header {
     width: 169px;
     padding: 7px 0px;
 }
-.topmenu {
+nav {
 	background-color: #242424;
 	min-height: 70px;
 	border-top: 1px solid rgba(255,255,255,0.18);
 	border-bottom: 1px solid rgba(255,255,255,0.18);
 	letter-spacing: 1px;
 }
-.topmenu_text {
+.nav_text {
 	float: left;
 	color: #ffffff;
 	font-family: "BebasBold";
@@ -177,16 +175,16 @@ header {
 	padding-left: 11px;
 	padding-right: 27px;
 }
-.topmenu a {
+nav a {
     height: 100%;
     float: left;
     padding-left: 19px;
     border-left: 1px solid rgba(255,255,255,0.18);
 }
-.topmenu a:hover {
+nav a:hover {
 	background-color: #3d3d3d;
 }
-.topmenu a:active {
+nav a:active {
 	background-color: #0a0a0a;
 }
 .mainbutton_img {
@@ -243,14 +241,13 @@ header {
 	float: left;
 	margin: 21px 0px;
 }
-.topmenu__warranty {
+.nav__warranty {
 	float: right;
 	border: 3px solid white;
 	border-radius: 3px;
 	width: 181px;
 	margin: 8px auto;
 	color: white;
-	cursor: default;
 }
 .warranty_left {
 	float: left;
@@ -276,4 +273,10 @@ header {
 	line-height: 26px;
 	margin-top: 70px;
 	font-weight: bold;
+}
+.services__title img:first-child {
+	margin-right: 21px;
+}
+.services__title img:last-child {
+	margin-left: 21px;
 }
