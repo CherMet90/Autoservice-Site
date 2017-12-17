@@ -283,8 +283,14 @@ nav a:active {
 .services__items {
 	margin-top: 70px;
 }
-.services__bodyrepair {
+.services__bodyrepair,
+.services__mechworks,
+.services__express,
+.services__diagnostic,
+.services__locksmithing,
+.services__plastic-repairing {
 	border: #353535 solid 1px;
+/*	padding-top: 20px;*/
 }
 .services__bodyrepair_img {
 	background-image: url('../img/services_iconset.png');
@@ -292,12 +298,59 @@ nav a:active {
 	background-position: 0 0;
 	height: 73px;
 	width: 103px;
-	margin: auto;
+	margin: 20px auto;
 }
-.services__bodyrepair span {
+.services__mechworks_img {
+	background-image: url('../img/services_iconset.png');
+	background-repeat: no-repeat;
+	background-position: -130px 0;
+	height: 73px;
+	width: 103px;
+	margin: 20px auto;
+}
+.services__express_img {
+	background-image: url('../img/services_iconset.png');
+	background-repeat: no-repeat;
+	background-position: -255px 0;
+	height: 73px;
+	width: 103px;
+	margin: 20px auto;
+}
+.services__diagnostic_img {
+	background-image: url('../img/services_iconset.png');
+	background-repeat: no-repeat;
+	background-position: -382px 0;
+	height: 73px;
+	width: 103px;
+	margin: 20px auto;
+}
+.services__locksmithing_img {
+	background-image: url('../img/services_iconset.png');
+	background-repeat: no-repeat;
+	background-position: -512px 0;
+	height: 73px;
+	width: 103px;
+	margin: 20px auto;
+}
+.services__plastic-repairing_img {
+	background-image: url('../img/services_iconset.png');
+	background-repeat: no-repeat;
+	background-position: -641px 0;
+	height: 73px;
+	width: 103px;
+	margin: 20px auto;
+}
+.services__bodyrepair span,
+.services__mechworks span,
+.services__express span,
+.services__diagnostic span,
+.services__locksmithing span,
+.services__plastic-repairing span {
 	text-transform: uppercase;
 	font-size: 18px;
 	line-height: 26px;
 	color: #fefefe;
-	margin: 0px 29px;
+	text-align: center;
+	display: block;
+	font-family: "BebasBold";
 }
