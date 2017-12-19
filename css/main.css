@@ -354,3 +354,59 @@ nav a:active {
 	display: block;
 	font-family: "BebasBold";
 }
+.services__bodyrepair span:hover,
+.services__mechworks span:hover,
+.services__express span:hover,
+.services__diagnostic span:hover,
+.services__locksmithing span:hover,
+.services__plastic-repairing span:hover {
+	text-decoration: underline;
+}
+.services__bodyrepair:hover,
+.services__mechworks:hover,
+.services__express:hover,
+.services__diagnostic:hover,
+.services__locksmithing:hover,
+.services__plastic-repairing:hover {
+	background-color: #2a2a2a;
+}	
+.arrow {
+	height: 25px;
+	width: 100%;
+	background-color: #212121;
+	background-image: url('../img/arrow_iconset.png');
+	background-repeat: no-repeat;
+	background-position: 70px 5px;
+	margin-top: 12px;
+}
+.arrow:hover {
+	background-color: #353535;
+	background-position: -120px 5px;
+}
+.services__hidden-menu--wrap {
+	position: relative;
+}
+.services__hidden-menu {
+	display: none;
+	position: absolute;
+	margin-top: 21px;
+	background-color: #353535;
+	font-size: 20px;
+	line-height: 32px;
+	font-family: "BebasBold";
+	padding: 16px;
+	z-index: 10;
+}
+.services__hidden-menu a {
+	text-decoration: underline;
+	text-transform: uppercase;
+	padding: 0 9px;
+	color: rgb(254,254,254);
+}
+.services__hidden-menu a:hover {
+	text-decoration: none;
+}	
+.hidden-menu__items {
+	text-align: center;
+	margin: 0 35px;
+}

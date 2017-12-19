@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+	$(".arrow").click(function() {
+		$(".services__hidden-menu").slideToggle()
+	});
+
 	//Цели для Яндекс.Метрики и Google Analytics
 	$(".count_element").on("click", (function() {
 		ga("send", "event", "goal", "goal");
