@@ -1,7 +1,26 @@
 $(document).ready(function() {
 
-	$(".arrow").click(function() {
-		$(".services__hidden-menu").slideToggle()
+	$(".arrow").hover(function() {
+		$(".services__hidden-menu").fadeToggle()
+	});
+
+	$(".services__bodyrepair .arrow").hover(function() {
+		$("#gra1").fadeToggle()
+	});
+	$(".services__mechworks .arrow").hover(function() {
+		$("#gra2").fadeToggle()
+	});
+	$(".services__express .arrow").hover(function() {
+		$("#gra3").fadeToggle()
+	});
+	$(".services__diagnostic .arrow").hover(function() {
+		$("#gra4").fadeToggle()
+	});
+	$(".services__locksmithing .arrow").hover(function() {
+		$("#gra5").fadeToggle()
+	});
+	$(".services__plastic-repairing .arrow").hover(function() {
+		$("#gra6").fadeToggle()
 	});
 
 	//Цели для Яндекс.Метрики и Google Analytics

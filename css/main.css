@@ -376,12 +376,22 @@ nav a:active {
 	background-color: #212121;
 	background-image: url('../img/arrow_iconset.png');
 	background-repeat: no-repeat;
-	background-position: 70px 5px;
+	background-position: 72px 5px;
 	margin-top: 12px;
 }
 .arrow:hover {
 	background-color: #353535;
-	background-position: -120px 5px;
+	background-position: -118px 5px;
+}
+/*.arrow img {
+	position: relative;
+	display: block;
+	margin: auto;
+	top: 9px;
+}*/
+.arrow .arrow__hidden--img {
+	display: none;
+	z-index: 10;
 }
 .services__hidden-menu--wrap {
 	position: relative;
@@ -410,16 +420,12 @@ nav a:active {
 	text-align: center;
 	margin: 0 35px;
 }
-.services__hidden-menu--wrap img:nth-of-type(1) {
-}
-.services__hidden-menu--wrap img:nth-of-type(2) {
-}
-.services__hidden-menu--wrap img:nth-of-type(3) {
-}
-.services__hidden-menu--wrap img:nth-of-type(4) {
-}
-.services__hidden-menu--wrap img:nth-of-type(5) {
-}
-.services__hidden-menu--wrap img:nth-of-type(6) {
+.services__hidden-menu--wrap img {
+	display: none;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 10px;
 }
 
