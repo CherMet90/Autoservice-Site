@@ -375,14 +375,10 @@ nav a:active {
 	height: 25px;
 	width: 100%;
 	background-color: #212121;
-	/*background-image: url('../img/arrow_iconset.png');
-	background-repeat: no-repeat;
-	background-position: 72px 5px;*/
 	margin-top: 12px;
 }
 .arrow:hover {
 	background-color: #353535;
-	/*background-position: -118px 5px;*/
 }
 .arrow--img {
 	display: table-caption;
