@@ -265,6 +265,7 @@ nav a:active {
 }
 .services {
     background-color: #191919;
+    height: 500px;
 }
 .services__title {
 	text-align: center;
@@ -374,21 +375,19 @@ nav a:active {
 	height: 25px;
 	width: 100%;
 	background-color: #212121;
-	background-image: url('../img/arrow_iconset.png');
+	/*background-image: url('../img/arrow_iconset.png');
 	background-repeat: no-repeat;
-	background-position: 72px 5px;
+	background-position: 72px 5px;*/
 	margin-top: 12px;
 }
 .arrow:hover {
 	background-color: #353535;
-	background-position: -118px 5px;
+	/*background-position: -118px 5px;*/
 }
-/*.arrow img {
-	position: relative;
-	display: block;
+.arrow--img {
+	display: table-caption;
 	margin: auto;
-	top: 9px;
-}*/
+}
 .arrow .arrow__hidden--img {
 	display: none;
 	z-index: 10;

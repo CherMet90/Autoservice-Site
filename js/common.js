@@ -1,28 +1,70 @@
 $(document).ready(function() {
 
-	$(".arrow").hover(function() {
-		$(".services__hidden-menu").fadeToggle()
+	var id;
+
+	$(".arrow").mouseover(function() {
+		$(".services__hidden-menu").show()
+	});
+	$(".services__bodyrepair .arrow").mouseover(function() {
+		$("#gra1").show();
+		$("img.arrow--img:eq(0)").attr('src', 'img/red-arrow.png');
+	});
+	$(".services__mechworks .arrow").mouseover(function() {
+		$("#gra2").show();
+		$("img.arrow--img:eq(1)").attr('src', 'img/red-arrow.png');
+	});
+	$(".services__express .arrow").mouseover(function() {
+		$("#gra3").show();
+		$("img.arrow--img:eq(2)").attr('src', 'img/red-arrow.png');
+	});
+	$(".services__diagnostic .arrow").mouseover(function() {
+		$("#gra4").show();
+		$("img.arrow--img:eq(3)").attr('src', 'img/red-arrow.png');
+	});
+	$(".services__locksmithing .arrow").mouseover(function() {
+		$("#gra5").show();
+		$("img.arrow--img:eq(4)").attr('src', 'img/red-arrow.png');
+	});
+	$(".services__plastic-repairing .arrow").mouseover(function() {
+		$("#gra6").show();
+		$("img.arrow--img:eq(5)").attr('src', 'img/red-arrow.png');
 	});
 
-	$(".services__bodyrepair .arrow").hover(function() {
-		$("#gra1").fadeToggle()
+	$(".arrow, .services__hidden-menu").mouseout(function() {
+		id = setTimeout(hiddingMenu, 600);
 	});
-	$(".services__mechworks .arrow").hover(function() {
-		$("#gra2").fadeToggle()
+	$(".services__bodyrepair .arrow").mouseout(function() {
+		$("#gra1").hide();
+		$("img.arrow--img:eq(0)").attr('src', 'img/white-arrow.png');
 	});
-	$(".services__express .arrow").hover(function() {
-		$("#gra3").fadeToggle()
+	$(".services__mechworks .arrow").mouseout(function() {
+		$("#gra2").hide();
+		$("img.arrow--img:eq(1)").attr('src', 'img/white-arrow.png');
 	});
-	$(".services__diagnostic .arrow").hover(function() {
-		$("#gra4").fadeToggle()
+	$(".services__express .arrow").mouseout(function() {
+		$("#gra3").hide();
+		$("img.arrow--img:eq(2)").attr('src', 'img/white-arrow.png');
 	});
-	$(".services__locksmithing .arrow").hover(function() {
-		$("#gra5").fadeToggle()
+	$(".services__diagnostic .arrow").mouseout(function() {
+		$("#gra4").hide();
+		$("img.arrow--img:eq(3)").attr('src', 'img/white-arrow.png');
 	});
-	$(".services__plastic-repairing .arrow").hover(function() {
-		$("#gra6").fadeToggle()
+	$(".services__locksmithing .arrow").mouseout(function() {
+		$("#gra5").hide();
+		$("img.arrow--img:eq(4)").attr('src', 'img/white-arrow.png');
+	});
+	$(".services__plastic-repairing .arrow").mouseout(function() {
+		$("#gra6").hide();
+		$("img.arrow--img:eq(5)").attr('src', 'img/white-arrow.png');
+	});
+	$(".arrow, .services__hidden-menu").mouseover(function(){
+		clearTimeout(id);
 	});
 
+	function hiddingMenu() {
+		$(".services__hidden-menu").fadeOut(400);
+	};
+	
 	//Цели для Яндекс.Метрики и Google Analytics
 	$(".count_element").on("click", (function() {
 		ga("send", "event", "goal", "goal");
