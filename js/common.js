@@ -4,11 +4,17 @@ $(document).ready(function() {
 
 	$(".arrow").mouseover(function(e) {
 		n = $(".arrow").index(e.target);
+		if (n<0) {
+			n = $(".arrow--img").index(e.target);
+		}
 		$(".hidden-menu__arrow").eq(n).show();
 		$(".arrow--img").eq(n).attr('src', 'img/red-arrow.png');
 	})
-	$(".arrow").mouseout(function(e) {
+	$(".arrow, .arrow--img").mouseout(function(e) {
 		n = $(".arrow").index(e.target);
+		if (n<0) {
+			n = $(".arrow--img").index(e.target);
+		}
 		$(".hidden-menu__arrow").eq(n).hide();
 		$(".arrow--img").eq(n).attr('src', 'img/white-arrow.png');
 	})
