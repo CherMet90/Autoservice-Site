@@ -265,7 +265,6 @@ nav a:active {
 }
 .services {
     background-color: #191919;
-    height: 500px;
 }
 .services__title {
 	text-align: center;
@@ -423,4 +422,28 @@ nav a:active {
 	right: 0;
 	top: 10px;
 }
-
+.services__button {
+    display: block;
+    background-color: #d12f22;
+    width: 216px;
+	margin: auto;
+	margin-top: 154px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	color: rgb(255,255,255);
+	font-family: "BebasBold";
+	text-align: center;
+	border-bottom: #ac160a 4px solid;
+}
+.services__button span {
+    vertical-align: middle;
+    display: inline-block;
+    line-height: normal;
+}
+.services__button:hover {
+	background-color: #e05046;
+}
+.services__button:active {
+	background-color: #a6241b;
+}
