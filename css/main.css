@@ -447,6 +447,9 @@ nav a:active {
 .services__button:active {
 	background-color: #a6241b;
 }
+.aboutus {
+	text-shadow: 0 1px 1px #7f7f7f;
+}
 .aboutus__title {
 	text-align: center;
 	padding-top: 42px;
@@ -473,4 +476,97 @@ nav a:active {
 	font-size: 16px;
 	line-height: 22px;
 	color: rgb(5,5,5);	
+}
+.aboutus--greywrap {
+	background-color: #d5d5d5;
+	padding: 42px 0;
+}
+.aboutus__articles {
+	text-align: center;
+}
+.article:nth-child(1),
+.article:nth-child(4) {
+	float: left;
+}
+.article:nth-child(2),
+.article:nth-child(5) {
+	display: inline-block;
+}
+.article:nth-child(3),
+.article:nth-child(6) {
+	float: right;
+}
+.article:nth-last-child(3),
+.article:nth-last-child(1),
+.article:nth-last-child(2) {
+	margin-top: 77px;
+}
+.article {
+	width: 352px;
+	text-align: center;
+	text-shadow: 0 1px 1px #7f7f7f;
+}
+.article img {
+	display: block;
+	border-top: solid #ac160a 8px;
+	margin-bottom: 30px;
+}
+.article span {
+	font-size: 15px;
+	line-height: 20px;
+	color: rgb(5,5,5);
+	font-family: "RobotoRegular";
+	text-align: center;
+}
+.article__header {
+	margin-top: 33px;
+	height: 54px;
+	line-height: 54px;
+	margin-bottom: 46px;
+}
+.article__title {
+	text-align: left;
+}
+.article__title span {
+	font-size: 36px;
+	line-height: 26px;
+	color: rgb(5,5,5);
+	text-shadow: 0 1px 1px #7f7f7f;
+	vertical-align: middle;
+}
+.article__button {
+    display: block;
+    background-color: #d12f22;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	color: rgb(255,255,255);
+	font-family: "BebasBold";
+	text-align: center;
+	border-bottom: #ac160a 4px solid;
+	margin-left: -16px;
+}
+.article__button span {
+    vertical-align: middle;
+    display: inline-block;
+    line-height: normal;
+}
+.article__button:hover {
+	background-color: #e05046;
+}
+.article__button:active {
+	background-color: #a6241b;
+}
+.article__img {
+
+}
+.article__text {
+	padding-right: 34px;
+}
+.article__text span {
+	font-size: 17px;
+	line-height: 22px;
+	color: rgb(5,5,5);
+	font-family: "RobotoCondensedRegular";
+	text-shadow: 0 1px 1px #7f7f7f;
 }
