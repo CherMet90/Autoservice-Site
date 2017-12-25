@@ -510,6 +510,8 @@ nav a:active {
 	display: block;
 	border-top: solid #ac160a 8px;
 	margin-bottom: 30px;
+	width: 350px;
+	height: 241px;
 }
 .article span {
 	font-size: 15px;
@@ -569,4 +571,29 @@ nav a:active {
 	color: rgb(5,5,5);
 	font-family: "RobotoCondensedRegular";
 	text-shadow: 0 1px 1px #7f7f7f;
+}
+footer {
+	background-color: #2a2a2a;
+	height: 96px;
+	line-height: 96px;
+}
+.footer__site span {
+	font-size: 20px;
+	line-height: 22px;
+	color: rgb(255,255,255);
+	font-family: "BebasBold";
+}
+.footer__site-map a {
+	font-size: 20px;
+	line-height: 22px;
+	color: rgb(255,255,255);
+	font-family: "BebasBold";
+	text-decoration: underline;
+	margin-right: 28px;
+}
+.footer__site-map a:hover {
+	text-decoration: none;
+}
+.footer__counter {
+	
 }
