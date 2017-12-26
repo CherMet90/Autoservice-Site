@@ -146,6 +146,7 @@ header {
 }
 .header__button_right:hover {
 	background-color: #e05046;
+	text-decoration: none;
 }
 .header__button_right:active {
 	background-color: #a6241b;
@@ -488,6 +489,7 @@ nav {
 }
 .services__button:hover {
 	background-color: #e05046;
+	color: #fff;
 }
 .services__button:active {
 	background-color: #a6241b;
@@ -524,12 +526,12 @@ nav {
 }
 .aboutus--greywrap {
 	background-color: #d5d5d5;
-	padding: 42px 0;
+	padding-top: 42px;
 }
 .aboutus__articles {
 	text-align: center;
 }
-.article:nth-child(1),
+/*.article:nth-child(1),
 .article:nth-child(4) {
 	float: left;
 }
@@ -545,18 +547,23 @@ nav {
 .article:nth-last-child(1),
 .article:nth-last-child(2) {
 	margin-top: 77px;
-}
+}*/
 .article {
-	width: 352px;
+	/*width: 352px;*/
 	text-align: center;
 	text-shadow: 0 1px 1px #7f7f7f;
+	margin-bottom: 42px;
+}
+.article a {
+	text-align: center;
 }
 .article img {
 	display: block;
 	border-top: solid #ac160a 8px;
-	margin-bottom: 30px;
-	width: 350px;
+	width: 290px;
 	height: 241px;
+	margin: auto;
+	margin-bottom: 30px;
 }
 .article span {
 	font-size: 15px;
@@ -582,11 +589,11 @@ nav {
 	vertical-align: middle;
 }
 .article__button {
-    display: block;
-    background-color: #d12f22;
-	height: 50px;
+	display: block;
+	background-color: #d12f22;
+	height: 54px;
 	font-size: 20px;
-	line-height: 50px;
+	line-height: 54px;
 	color: rgb(255,255,255);
 	font-family: "BebasBold";
 	text-align: center;
@@ -600,12 +607,13 @@ nav {
 }
 .article__button:hover {
 	background-color: #e05046;
+	color: #fff;
 }
 .article__button:active {
 	background-color: #a6241b;
 }
 .article__img {
-
+	text-align: center;
 }
 .article__text {
 	padding-right: 34px;
@@ -618,9 +626,12 @@ nav {
 	text-shadow: 0 1px 1px #7f7f7f;
 }
 footer {
-	background-color: #2a2a2a;
 	height: 96px;
 	line-height: 96px;
+}
+.footer--bgc {
+	background-color: #2a2a2a;
+	margin-top: 15px;
 }
 .footer__site span {
 	font-size: 20px;

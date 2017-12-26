@@ -25,6 +25,22 @@
 		padding-left: 100px;
 		background: url('../img/top_map.png') no-repeat 48px 3px;
 	} 
+	.article__button {
+		margin-left: 0;
+	}
+	.article__img img {
+		width: 290px;
+	}
+	.article__text {
+		padding: 15px 15px;
+		text-align: center;
+	}
+	.footer--bgc {
+		background-color: #2a2a2a;
+	}
+	.footer__site-map {
+		line-height: 25px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -69,6 +85,43 @@
 	}
 	.nav__button span:last-child {
 		display: none;
+	}
+	.services__title {
+		line-height: unset;
+	}
+	.services__title img {
+		display: none;
+	}
+	.aboutus__title span {
+		line-height: 40px;
+	}
+	.aboutus__title img {
+		display: none;
+	}
+	.article__header {
+		height: unset;
+		line-height: unset;
+	}
+	.article__title span {
+		line-height: 36px;
+		margin-bottom: 15px;
+		display: block;
+	}
+	.article__button {
+		margin-left: 0;
+	}
+	.article__img img {
+		width: 290px;
+	}
+	.article__text {
+		padding: 15px 15px;
+		text-align: center;
+	}
+	.footer--bgc {
+		background-color: #2a2a2a;
+	}
+	.footer__site-map {
+		line-height: 25px;
 	}
 }
 
