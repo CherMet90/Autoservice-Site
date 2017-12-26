@@ -77,8 +77,8 @@ header {
 }
 .top-line__logo_wrap {
     position: relative;
-/*    width: 240px;
-    margin: auto;*/
+    width: 240px;
+    margin: auto;
 }
 .top-line__logo {
     position: absolute;
