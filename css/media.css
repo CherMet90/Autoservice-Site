@@ -17,7 +17,33 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	.top-line__logo_wrap {
+		height: 84px;
+	}
+	.top-line__logo img {
+		transform: scale(0.7);
+		position: relative;
+		right: 74px;
+		bottom: 32px;
+	}
+	.top-line__address {
+		background: none;
+		padding-left: 0;
+	} 
+	.header__top-line a {
+		font-size: 17px;
+		display: contents;
+	}
+/*	.header__top-line a:hover {
+		text-decoration: underline;
+	}*/
+	.header__top-line strong {
+		font-size: 31px;
+	}
+	.top-line__call {
+		margin-top: -20px;
+		text-align: left;
+	}
 }
 
 /* Custom, iPhone Retina */

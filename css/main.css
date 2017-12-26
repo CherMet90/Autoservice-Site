@@ -64,7 +64,7 @@ header {
 	font-size: 32px;
 }
 .header__top-line a {
-	font-size: 22px;
+	font-size: 19px;
 	text-decoration: underline;
 }
 .top-line__address {
@@ -77,12 +77,13 @@ header {
 }
 .top-line__logo_wrap {
     position: relative;
-    width: 240px;
-    margin: auto;
+/*    width: 240px;
+    margin: auto;*/
 }
 .top-line__logo {
     position: absolute;
     top: -25px;
+    width: 100%;
 }
 .top-line__call {
     line-height: 28px;
