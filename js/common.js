@@ -2,6 +2,11 @@ $(document).ready(function() {
 	var id;
 	var n;
 
+	$(".nav__button").click(function() {
+		alert("button pushed");
+		$(".nav__hidden").slideToggle();
+	})
+
 	$(".arrow").mouseover(function(e) {
 		n = $(".arrow").index(e.target);
 		if (n<0) {

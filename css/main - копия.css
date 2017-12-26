@@ -176,43 +176,17 @@ nav {
 	padding-left: 11px;
 	padding-right: 27px;
 }
-.nav__items a {
+nav a {
     height: 100%;
     float: left;
     padding-left: 19px;
     border-left: 1px solid rgba(255,255,255,0.18);
 }
-.nav__items a:hover {
+nav a:hover {
 	background-color: #3d3d3d;
 }
-.nav__items a:active {
+nav a:active {
 	background-color: #0a0a0a;
-}
-.nav__button {
-    display: none;
-    font-size: 22px;
-    height: 54px;
-		line-height: 54px;
-    background-color: #d12f22;
-    border-bottom: #ac160a 4px solid;
-    text-align: center;
-    padding: 0 15px;
-    margin: 7px;
-}
-.nav__button:hover {
-	background-color: #e05046;
-}
-.nav__button:active {
-	background-color: #a6241b;
-}
-.nav__button span {
-	color: white;
-	vertical-align: text-top;
-}
-.nav__button span:last-child {
-	font-family: "BebasBold";
-	vertical-align: middle;
-	margin-left: 5px;
 }
 .mainbutton_img {
 	background-image: url('../img/topmenu_iconset.png');
@@ -289,23 +263,6 @@ nav {
 	line-height: 17px;
 	width: 112px;
 	margin: 7px 4px 0px 0px;
-}
-.nav__hidden {
-	display: none;
-}
-.nav__hidden--items {
-	/*position: absolute;*/
-}
-.nav__hidden a{
-	display: block;
-	height: 69px;
-	border-top: 1px solid rgba(255,255,255,0.18);
-}
-.nav__hidden a:hover {
-	background-color: #3d3d3d;
-}
-.nav__hidden a:active {
-	background-color: #0a0a0a;
 }
 .services {
     background-color: #191919;

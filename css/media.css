@@ -2,7 +2,12 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+	.nav__items a {
+		display: none;
+	}
+	.nav__button {
+		display: inline-block;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -60,6 +65,9 @@
 		text-align: center;
 	}
 	.button__left_img {
+		display: none;
+	}
+	.nav__button span:last-child {
 		display: none;
 	}
 }
