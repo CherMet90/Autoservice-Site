@@ -3,7 +3,6 @@ $(document).ready(function() {
 	var n;
 
 	$(".nav__button").click(function() {
-		alert("button pushed");
 		$(".nav__hidden").slideToggle();
 	})
 
