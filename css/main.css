@@ -76,14 +76,12 @@ header {
 	color: white;
 }
 .top-line__logo_wrap {
-    position: relative;
-    width: 240px;
-    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 .top-line__logo {
     position: absolute;
     top: -25px;
-    width: 100%;
 }
 .top-line__call {
     line-height: 28px;
@@ -649,7 +647,4 @@ footer {
 }
 .footer__site-map a:hover {
 	text-decoration: none;
-}
-.footer__counter {
-
 }

@@ -48,12 +48,12 @@
 	.top-line__logo_wrap {
 		height: 84px;
 	}
-	.top-line__logo img {
+	/*.top-line__logo img {
 		transform: scale(0.7);
 		position: relative;
 		right: 74px;
 		bottom: 32px;
-	}
+	}*/
 	.top-line__address {
 		background: none;
 		padding-left: 0;
